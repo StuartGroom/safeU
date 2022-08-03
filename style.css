@@ -105,13 +105,32 @@ nav a:hover::before{
 
 
 /*makes the icon glow when hovered over*/
-.wrapper .socialSidebar ul li:hover a {
+.wrapper .socialSidebar ul li:hover a{
     color: black;
     /*background: blue;*/
     top: 50px;
     transform: scale(1.5); /*enlarges icon by 150% when hovered over
 */
 }
+
+
+/*makes the icon glow when hovered over*/
+.wrapper .socialSidebar ul li:hover a .fa-envelope{
+    color: rgb(219 68 55);
+    top: 50px;
+    transform: scale(1.5); /*enlarges icon by 150% when hovered over*/
+}
+.wrapper .socialSidebar ul li:hover a .fa-twitter{
+    color: rgb(29, 155, 240);
+    top: 50px;
+    transform: scale(1.5);
+}
+.wrapper .socialSidebar ul li:hover a .fa-instagram{
+    color: rgb(225, 48, 108);
+    top: 50px;
+    transform: scale(1.5);
+}
+
 
 
 /*sets color of the icon*/
