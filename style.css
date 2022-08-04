@@ -257,6 +257,7 @@ nav a:hover::before{
     width: 500px;
     height: 500px;
     margin: calc(100px / 2 + 0px);
+    font-size: 30px;
 }
 
 /* .productCircle:before {
@@ -271,29 +272,37 @@ nav a:hover::before{
 
 .productCircle .circle {
 	position: absolute;
-    top: 50%; left: 50%;
-    width: 100px;
-    height: 100px;
+    top: 45%; left: 45%;
+    width: 150px;
+    height: 150px;
     margin: calc( -100px / 2 );
     background: teal;
     border-radius: 50%;
     z-index: 1;
     text-align: center;
+    cursor: pointer;
+}
+
+
+.productCircle .circle .text{
+    text-align: center;
+    margin-top: 30px;
 }
 
 .productCircle .circle i{
     
     position: absolute;
-    top: 115%; left: 115%; 
-    width: 100px;
-    height: 100px;
+    top: 100%; left: 83%; 
+    width: 50px;
+    height: 50px;
     margin: calc( -150px / 2 );
-    
+    text-align: center;
     border-radius: 50%;
     z-index: 1;
 }
 
 .productCircle .product {
+    
 	position: absolute;
     top: 50%; left: 50%;
     width: 100px;
