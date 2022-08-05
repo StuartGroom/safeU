@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body{
+    margin: 0;
+    background: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+header{
+    background: rgba(224,255,251,255);
+    
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    padding: 10px 0;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+
+}
+
+nav a{
+    color: rgb(100,116,116);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: black;
+
+}
+
+nav a:before{
+    content: '';
+    display: block;
+    height: 5px;
+    
+    background-color: black;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+}
+
+nav a:hover::before{
+    width: 100%;
+    transition: all ease-in-out 250ms;
+}
+
+
+.wrapper {
+    display: flex;
+    position: fixed;
+   
+}
+
+/*here we chanaged to make pos fixed and bottom = 0, height = 200 to make it fit the bottom*/
+.wrapper .socialSidebar {
+    position: fixed;
+    bottom: 0;
+    width: 100px;
+    height: 220px;
+    text-align: center;
+}
+
+.wrapper .socialSidebar .vertical {
+    border-left: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin-left: 60px; /*centers vertical line with icons*/
+    
+}
+
+
+
+/*makes the icon glow when hovered over*/
+.wrapper .socialSidebar ul li:hover a{
+    color: black;
+    /*background: blue;*/
+    top: 50px;
+    transform: scale(1.5); /*enlarges icon by 150% when hovered over
+*/
+}
+
+
+/*makes the icon glow when hovered over*/
+.wrapper .socialSidebar ul li:hover a .fa-envelope{
+    color: rgb(219 68 55);
+    top: 50px;
+    transform: scale(1.5); /*enlarges icon by 150% when hovered over*/
+}
+.wrapper .socialSidebar ul li:hover a .fa-twitter{
+    color: rgb(29, 155, 240);
+    top: 50px;
+    transform: scale(1.5);
+}
+.wrapper .socialSidebar ul li:hover a .fa-instagram{
+    color: rgb(225, 48, 108);
+    top: 50px;
+    transform: scale(1.5);
+}
+
+
+/*sets color of the icon*/
+.wrapper .socialSidebar a {
+    display: block;
+    width: 40px;
+    height: 45px;
+    font-size: 25px;
+    line-height: 50px;
+    color: black;
+}
+
+.about {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+
+}
+
+.about p{
+    padding: 20px;
+    text-align: center
+}
+
+.logo2 {
+    width: 200px;
+    flex: 33%;
+    padding: 20px;
+}
+
