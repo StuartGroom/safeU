@@ -21,12 +21,14 @@ header::after{
     content: '';
     display: table;
     clear: both;
+    
 }
 
 .logo{
     float: left;
     height: 50px;
     padding: 10px 0;
+    
 }
 
 nav{
@@ -37,13 +39,15 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 nav li{
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 25px;
-
+    margin-left: 50px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+    
     position: relative;
 
 }
@@ -78,6 +82,97 @@ nav a:hover::before{
     transition: all ease-in-out 250ms;
 }
 
+/*banner*/
+
+.banner img{
+    width: 100vw;
+    height: 600px;
+}
+
+
+/*main*/
+.about {
+    margin-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.about .leftColumn{
+    width: 30%;
+}
+.about .rightColumn{
+    width: 50%;
+}
+
+.about .leftColumn p{
+    padding: 10px;
+    text-align: center
+}
+
+.leftColumn span .vision{
+    width: 40%;
+    float: left;
+    text-align: center;
+    background-color: rgba(224,255,251,255);
+    padding: 5px;
+    border-radius: 25px;
+}
+.leftColumn span .vision h1{
+    text-decoration: underline;
+}
+
+.leftColumn span .mission{
+    width: 40%;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+    background-color: rgba(224,255,251,255);
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.leftColumn span .mission h1{
+    text-decoration: underline;
+}
+
+
+.rightColumn{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+.about {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+
+}
+
+.about p{
+    padding: 20px;
+    text-align: center
+}
+
+.logo2 {
+    width: 200px;
+    flex: 33%;
+    padding: 20px;
+}
+
+
+
+
+
+/*social media*/
 
 .wrapper {
     display: flex;
@@ -142,21 +237,5 @@ nav a:hover::before{
     color: black;
 }
 
-.about {
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
 
-}
-
-.about p{
-    padding: 20px;
-    text-align: center
-}
-
-.logo2 {
-    width: 200px;
-    flex: 33%;
-    padding: 20px;
-}
 

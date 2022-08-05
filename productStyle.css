@@ -41,7 +41,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 50px;
     padding-top: 25px;
 
     position: relative;
@@ -307,7 +307,7 @@ main .productCustomise {
 
 /* right column */
 .rightColumn .productDescription{
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid #cbe1e1;
     margin-bottom: 20px;
 }
 
@@ -387,11 +387,11 @@ main .productCustomise {
     background-color: black;
 }
 
-/* .colourChoose input[type="radio"]:checked + label span{
-    background-image: url(images/checkIcon.svg);
+.colourChoose input[type="radio"]:checked + label span{
+    background-image: url(images/check-solid.svg);
     background-repeat: no-repeat;
     background-position: center;
-} */
+}
 
 
 /* product price*/

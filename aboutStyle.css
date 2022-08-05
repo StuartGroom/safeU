@@ -42,7 +42,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 50px;
     padding-top: 25px;
 
     position: relative;
@@ -159,7 +159,17 @@ nav a:hover::before{
 
 }
 
+.otherInfo{
+    padding: 50px;
+    text-align: center;
+    /* background-color: rgb(100,116,116); */
+    color: black;
+}
+.otherInfo p{
+    width: 50%;
+    margin-left: 25%;
 
+}
 
 .teamContainer h1{
     text-align: center;
@@ -202,7 +212,7 @@ nav a:hover::before{
     width: 100%;
 }
 
-.container {
+.cardContainer {
     padding: 0 16px;
     text-align: center;
 }
