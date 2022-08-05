@@ -23,7 +23,7 @@ document.querySelectorAll( '.productCircle' ).forEach( ( productCircle )=>{
     for( let i = 0; i < circles.length; ++i ){
       let circle = circles[i]
       angle += dangle
-      circle.style.transform = `rotate(${angle}deg) translate(${productCircle.clientWidth / 2}px) rotate(-${angle}deg)`
+      circle.style.transform = `rotate(${angle}deg) translate(${productCircle.clientWidth/2}px) rotate(-${angle}deg)`
     }
 })
 
