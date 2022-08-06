@@ -161,15 +161,17 @@ nav a:hover::before{
 }
 
 main .twitterFeed{
-    
-    
     margin: auto;
+    align-content: center;
+    width: 100%;
 }
 
 main .instagramFeed{
     height: 20% !important;
     max-height: 20% !important;
 }
+
+
 
 
 
