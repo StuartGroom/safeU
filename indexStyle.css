@@ -82,46 +82,85 @@ nav a:hover::before{
     transition: all ease-in-out 250ms;
 }
 
-/*banner*/
-
-.banner img{
-    width: 100vw;
-    height: 600px;
-}
-
 
 /*main*/
-.about {
+.intro {
     margin-top: 100px;
     padding-left: 10%;
     padding-right: 10%;
-}
-.about .leftColumn{
-    width: 30%;
-}
-.about .rightColumn{
-    width: 50%;
+    text-align: center;
+    /*box isn't centered */
 }
 
-.about .leftColumn p{
-    padding: 10px;
-    text-align: center
-}
-
-.leftColumn span .vision{
+.intro .leftColumn{
     width: 40%;
+    float: left;
+    background-color: #DEEDED;
+    height: 400px;
+    padding: 40px;
+    border-radius: 25px 0px 0px 25px;
+    max-width: 600px;
+}
+.intro .leftColumn .horizontalLine{
+    border-bottom: 5px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+.intro .leftColumn .title h1{
+    font-size: 40px;
+}
+
+.intro .leftColumn p{
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.intro .rightColumn{
+    width: 40%;
+    float: left;
+    background-color: #DEEDED;
+    padding: 38px;
+    border-radius: 0px 25px 25px 0px;
+    max-width: 600px;
+}
+
+.intro .rightColumn img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.about{
+    border-radius: 25px;
+    top: 700px;
+    position: absolute;
+    height: 500px;
+    width: calc(80%-100px);
+    margin-left: 25%;
+    background-color: red;
+    display: grid;
+    
+}
+.about span{
+    margin:50px;
+}
+
+.about span .vision{
+    width: 30%;
     float: left;
     text-align: center;
     background-color: rgba(224,255,251,255);
     padding: 5px;
     border-radius: 25px;
 }
-.leftColumn span .vision h1{
+.about span .vision h1{
     text-decoration: underline;
 }
 
-.leftColumn span .mission{
-    width: 40%;
+.about span .mission{
+    width: 30%;
     float: left;
     margin-left: 40px;
     text-align: center;
@@ -130,43 +169,13 @@ nav a:hover::before{
     border-radius: 25px;
 }
 
-.leftColumn span .mission h1{
+.about span .mission h1{
     text-decoration: underline;
 }
 
 
-.rightColumn{
-    width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: red;
-}
 
 
-
-
-
-
-
-
-
-.about {
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-
-}
-
-.about p{
-    padding: 20px;
-    text-align: center
-}
-
-.logo2 {
-    width: 200px;
-    flex: 33%;
-    padding: 20px;
-}
 
 
 
