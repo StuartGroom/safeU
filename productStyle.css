@@ -185,11 +185,32 @@ nav a:hover::before{
     padding-left: 100px;
 }
 
-.productExtra .imageHolder .hoverText{
-    visibility: inherit;
+.productExtra .infoHolder .hoverText{
+    display: inherit;
 }
 
-.productExtra .imageHolder{
+
+/* for some reason this is show by default */
+.productExtra .infoHolder .hiddenText{
+    display: none;
+}
+.productExtra .infoHolder .hiddenText2{
+    display: none;
+}
+.productExtra .infoHolder .hiddenText3{
+    display: none;
+}
+.productExtra .infoHolder .hiddenText4{
+    display: none;
+}
+.productExtra .infoHolder .hiddenText5{
+    display: none;
+}
+.productExtra .infoHolder .hiddenText6{
+    display: none;
+}
+
+.productExtra .infoHolder{
     width: 40%;
     margin: auto;
     text-align: center;
@@ -200,11 +221,7 @@ nav a:hover::before{
     width: 300px;
 }
 
-/* Set display to none for image*/
-.productExtra .imageHolder img{
-    display: none;
 
-}
 
 .productDiagram{
     display:inline-block; 
@@ -249,16 +266,12 @@ nav a:hover::before{
 }
 
 
-.productCircle .circle .text{
-    text-align: center;
-    margin-top: 50px;
 
-}
 
 .productCircle .circle i{
     
     position: absolute;
-    top: 100%; left: 76%; 
+    top: 76%; left: 76%; 
     width: 50px;
     height: 50px;
     margin: calc( -150px / 2 );
