@@ -148,15 +148,14 @@ nav a:hover::before{
 /* contact */
 .form{
     
-    width:700px;
-    height:500px;
+    width: 80vw;
+    height: 50vh;
     background:#e6e6e6;
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
-    padding:20px 30px;
     box-sizing:border-box;
     position:relative;
-    margin: calc(50vh - 220px) auto;
+    margin: 100px auto;
     padding:20px 30px;
     /* max-width:calc(100vw - 40px); */
 }

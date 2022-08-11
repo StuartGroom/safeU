@@ -65,9 +65,7 @@ nav a:before{
     content: '';
     display: block;
     height: 5px;
-    
     background-color: black;
-
     position: absolute;
     top: 0;
     width: 0%;
@@ -79,6 +77,11 @@ nav a:hover::before{
     transition: all ease-in-out 250ms;
 }
 
+
+
+
+
+/*social media*/ 
 
 .wrapper {
     display: flex;
@@ -93,6 +96,7 @@ nav a:hover::before{
     width: 100px;
     height: 220px;
     text-align: center;
+    
 }
 
 .wrapper .socialSidebar .vertical {
@@ -154,37 +158,49 @@ nav a:hover::before{
 }
 
 .about-section p{
-    width: 50%;
-    margin-left: 25%;
+    width: 70vw;
+    margin: auto;
 
 }
 
 .otherInfo{
-    padding: 50px;
+
     text-align: center;
     /* background-color: rgb(100,116,116); */
     color: black;
 }
 .otherInfo p{
-    width: 50%;
-    margin-left: 25%;
+    width: 70vw;
+    margin: auto;
 
 }
-
-.teamContainer h1{
-    text-align: center;
+.otherInfo img{
+    width: 50vw;
+    margin: auto;
+    margin-top: 50px;
 }
-
-
 
 
 .teamContainer{
     display: block;
+    width: 100vw;
+    margin: auto;
+    margin-top: 50px;
+    text-decoration: underline;
+    
+}
+
+.teamContainer h1{
+    text-align: center;
+    font-size: 42px;
 }
 
 .teamCards{
-    margin-left: 100px;
-    width:80%;
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 

@@ -102,8 +102,6 @@ nav a:hover::before{
     
 }
 
-
-
 /*makes the icon glow when hovered over*/
 .wrapper .socialSidebar ul li:hover a{
     color: black;
@@ -130,7 +128,6 @@ nav a:hover::before{
     top: 50px;
     transform: scale(1.5);
 }
-
 
 /*sets color of the icon*/
 .wrapper .socialSidebar a {
@@ -159,6 +156,8 @@ nav a:hover::before{
     flex: 33%;
     padding: 20px;
 }
+
+
 
 
 
@@ -220,7 +219,6 @@ nav a:hover::before{
     padding: 20px;
     width: 300px;
 }
-
 
 
 .productDiagram{
@@ -302,41 +300,43 @@ nav a:hover::before{
 
 
 
-
+/*colour customiser*/
 
 main .productCustomise {
     width: 100vw;
     height: 100vh;
-    background-color: blue;
 }
 
 .productCustomiseContainer{
-    max-width: 1200px;
+    max-width: 100vw;
     margin: 0 auto;
     padding: 15px;
     display: flex;
-    height: 700px;
+    height: 50vh;
+    
 }
 
 .leftColumn{
-    width: 65%;
+    width: 50%;
     position: relative;
+    
 }
 
 .rightColumn{
+    position: relative;
     width: 35%;
     margin-top: 50px;
+    
 }
 
 /* left column */
 .leftColumn img{
-    width:100%;
-    position:absolute;
-    left: 0;
-    top:0;
+    
+    width:80%;
+    position: absolute;
+    
     opacity: 0;
     transition: all 0.3s ease;
-
 }
 
 .leftColumn img.active{
@@ -458,7 +458,7 @@ main .productCustomise {
     .leftColumn img {
         width: 300px;
         right: 0;
-        top:-65px;
+        margin-top: 10px;
         left:initial;
     }
 }
