@@ -144,7 +144,8 @@ nav a:hover::before{
     border-radius: 20px;
     background: rgb(255,240,245);
     padding: 20px;
-    width: 300px;
+    width: 80%;
+    
     height: 150px;
     float: right;
 }
