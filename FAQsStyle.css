@@ -7,167 +7,64 @@ body{
     font-weight: 400;
 }
 
+/*nav bar*/
 .container{
     width:80%;
     margin: 0 auto;
 }
-
 header{
-    background: rgba(224,255,251,255);
-    
+    background: rgba(224,255,251,255); 
 }
-
 header::after{
     content: '';
     display: table;
     clear: both;
 }
-
 .logo{
     float: left;
     height: 50px;
     padding: 10px 0;
 }
-
 nav{
     float: right;
 }
-
 nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 nav li{
     display: inline-block;
     margin-left: 50px;
     padding-top: 25px;
-
     position: relative;
-
 }
-
 nav a{
     color: rgb(100,116,116);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
-
 nav a:hover{
     color: black;
-
 }
-
 nav a:before{
     content: '';
     display: block;
     height: 5px;
-    
     background-color: black;
-
     position: absolute;
     top: 0;
     width: 0%;
-
 }
-
 nav a:hover::before{
     width: 100%;
     transition: all ease-in-out 250ms;
 }
 
 
-.wrapper {
-    display: flex;
-    position: fixed;
-   
-}
-
-/*here we chanaged to make pos fixed and bottom = 0, height = 200 to make it fit the bottom*/
-.wrapper .socialSidebar {
-    position: fixed;
-    bottom: 0;
-    width: 100px;
-    height: 220px;
-    text-align: center;
-}
-
-.wrapper .socialSidebar .vertical {
-    border-left: 2px solid black;
-    height: 100px;
-    width: 100px;
-    margin-left: 60px; /*centers vertical line with icons*/
-    
-}
-
-
-
-/*makes the icon glow when hovered over*/
-.wrapper .socialSidebar ul li:hover a{
-    color: black;
-    /*background: blue;*/
-    top: 50px;
-    transform: scale(1.5); /*enlarges icon by 150% when hovered over
-*/
-}
-
-
-/*makes the icon glow when hovered over*/
-.wrapper .socialSidebar ul li:hover a .fa-envelope{
-    color: rgb(219 68 55);
-    top: 50px;
-    transform: scale(1.5); /*enlarges icon by 150% when hovered over*/
-}
-.wrapper .socialSidebar ul li:hover a .fa-twitter{
-    color: rgb(29, 155, 240);
-    top: 50px;
-    transform: scale(1.5);
-}
-.wrapper .socialSidebar ul li:hover a .fa-instagram{
-    color: rgb(225, 48, 108);
-    top: 50px;
-    transform: scale(1.5);
-}
-
-
-/*sets color of the icon*/
-.wrapper .socialSidebar a {
-    display: block;
-    width: 40px;
-    height: 45px;
-    font-size: 25px;
-    line-height: 50px;
-    color: black;
-}
-
-.about {
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-
-}
-
-.about p{
-    padding: 20px;
-    text-align: center
-}
-
-.logo2 {
-    width: 200px;
-    flex: 33%;
-    padding: 20px;
-}
-
-
-
-
-
-
 
 /* faqs */
-
 .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
@@ -182,11 +79,8 @@ nav a:hover::before{
 .hr-line{
   width: 60%;
   margin: auto;
-  
 }
-/* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
-    /* background-color: #eee; */
     color: #444;
     cursor: pointer;
     padding: 30px 20px;
@@ -198,18 +92,14 @@ nav a:hover::before{
 }
 .faq-body{
     margin: auto;
-    /* text-align: center; */
-   width: 50%; 
-   padding: auto;
-   
+    width: 50%; 
+    padding: auto; 
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Add background to button when clicked/hovered over*/
 .active,
 .faq-page:hover {
-    background-color: rgba(224,255,251,255);
-    
+    background-color: rgba(224,255,251,255); 
 }
-/* Style the faq-page panel. Note: hidden by default */
 .faq-body {
     padding: 0 18px;
     background-color: #F6FFFF;
@@ -218,14 +108,64 @@ nav a:hover::before{
     overflow: hidden;
 }
 .faq-page:after {
-    content: '\02795';
-    /* Unicode character for "plus" sign (+) */
+    content: '\02795';  /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
     float: right;
     margin-left: 5px;
 }
 .active:after {
-    content: "\2796";
-    /* Unicode character for "minus" sign (-) */
+    content: "\2796";   /* Unicode character for "minus" sign (-) */
+}
+
+
+
+
+/*social media nav bar*/
+.wrapper {
+    display: flex;
+    position: fixed;
+}
+.wrapper .socialSidebar {
+    position: fixed;
+    bottom: 0;
+    width: 100px;
+    height: 220px;
+    text-align: center;
+}
+.wrapper .socialSidebar .vertical {
+    border-left: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin-left: 60px; /*centers vertical line with icons*/
+}
+/*makes the icon glow when hovered over*/
+.wrapper .socialSidebar ul li:hover a{
+    color: black;
+    top: 50px;
+    transform: scale(1.5); /*enlarges icon by 150% when hovered over*/
+}
+.wrapper .socialSidebar ul li:hover a .fa-envelope{
+    color: rgb(219 68 55);
+    top: 50px;
+    transform: scale(1.5); 
+}
+.wrapper .socialSidebar ul li:hover a .fa-twitter{
+    color: rgb(29, 155, 240);
+    top: 50px;
+    transform: scale(1.5);
+}
+.wrapper .socialSidebar ul li:hover a .fa-instagram{
+    color: rgb(225, 48, 108);
+    top: 50px;
+    transform: scale(1.5);
+}
+/*sets color of the icon*/
+.wrapper .socialSidebar a {
+    display: block;
+    width: 40px;
+    height: 45px;
+    font-size: 25px;
+    line-height: 50px;
+    color: black;
 }

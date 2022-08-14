@@ -10,9 +10,16 @@ $(document).ready(function() {
 
 });
 
+function hideAll(){
+    document.getElementById('hiddenText').style.display = "none";
+    document.getElementById('hiddenText2').style.display = "none";
+    document.getElementById('hiddenText3').style.display = "none";
+    document.getElementById('hiddenText4').style.display = "none";
+    document.getElementById('hiddenText5').style.display = "none";
+    document.getElementById('hiddenText6').style.display = "none";
+}
 
 function show() {
- 
     /* Access image by id and change
     the display property to block*/
     document.getElementById('discreteButton').style.background = "rgb(255,240,245)";
@@ -40,8 +47,6 @@ function hide2(){
     document.getElementById('hiddenText2').style.display = "none"; 
 }
 
-
-
 function show3() {
     document.getElementById('batteryButton').style.background = "rgb(255,240,245)";
     document.getElementById('hoverText').style.display = "none"; 
@@ -53,8 +58,6 @@ function hide3(){
     document.getElementById('hoverText').style.display = "inherit"; 
     document.getElementById('hiddenText3').style.display = "none"; 
 }
-
-
 
 function show4() {
     document.getElementById('buildButton').style.background = "rgb(255,240,245)";
@@ -68,8 +71,6 @@ function hide4(){
     document.getElementById('hiddenText4').style.display = "none"; 
 }
 
-
-
 function show5() {
     document.getElementById('useButton').style.background = "rgb(255,240,245)";
     document.getElementById('hoverText').style.display = "none"; 
@@ -81,10 +82,6 @@ function hide5(){
     document.getElementById('hoverText').style.display = "inherit"; 
     document.getElementById('hiddenText5').style.display = "none"; 
 }
-
-
-
-
 
 function show6() {
     document.getElementById('alarmButton').style.background = "rgb(255,240,245)";

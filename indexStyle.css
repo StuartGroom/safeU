@@ -131,7 +131,7 @@ main .one {
 .about{
     border-radius: 25px;
     position: absolute;
-    background-color: pink;
+    /* background-color: pink; */
     width: 100vw;
 }
 .about span{

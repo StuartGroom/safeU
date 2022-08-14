@@ -27,27 +27,3 @@ document.querySelectorAll( '.productCircle' ).forEach( ( productCircle )=>{
     }
 })
 
-document.getElementsByClassName('circle')[0]
-        .addEventListener('click', function (event) {
-            window.alert("0");
-});
-document.getElementsByClassName('circle')[1]
-        .addEventListener('click', function (event) {
-            window.alert("1");
-});
-document.getElementsByClassName('circle')[2]
-        .addEventListener('click', function (event) {
-            window.alert("2");
-});
-document.getElementsByClassName('circle')[3]
-        .addEventListener('click', function (event) {
-            window.alert("3");
-});
-document.getElementsByClassName('circle')[4]
-        .addEventListener('click', function (event) {
-            window.alert("4");
-});
-document.getElementsByClassName('circle')[5]
-        .addEventListener('click', function (event) {
-            window.alert("5");
-});
