@@ -201,3 +201,15 @@ nav a:hover::before{
     line-height: 50px;
     color: black;
 }
+
+
+/*hides social media wrapper and extra form info on mobiles - screen too small*/
+@media (max-width: 768px) {
+    .wrapper {
+      display: none;
+    }
+    .formExtra{
+        display: none;
+    }
+
+}

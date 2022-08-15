@@ -166,7 +166,6 @@ nav a:hover::before{
     width: 100px;
     height: 220px;
     text-align: center;
-    
 }
 .wrapper .socialSidebar .vertical {
     border-left: 2px solid black;
@@ -180,11 +179,10 @@ nav a:hover::before{
     top: 50px;
     transform: scale(1.5); /*enlarges icon by 150% when hovered over*/
 }
-/*makes the icon glow when hovered over*/
 .wrapper .socialSidebar ul li:hover a .fa-envelope{
     color: rgb(219 68 55);
     top: 50px;
-    transform: scale(1.5); /*enlarges icon by 150% when hovered over*/
+    transform: scale(1.5); 
 }
 .wrapper .socialSidebar ul li:hover a .fa-twitter{
     color: rgb(29, 155, 240);
@@ -207,3 +205,9 @@ nav a:hover::before{
 }
 
 
+/*hides social media wrapper on mobiles - screen too small*/
+@media (max-width: 768px) {
+    .wrapper {
+      display: none;
+    }
+}

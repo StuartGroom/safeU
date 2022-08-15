@@ -130,5 +130,10 @@ main .instagramFeed{
 
 
 
-
+/*hides social media wrapper on mobiles - screen too small*/
+@media (max-width: 768px) {
+    .wrapper {
+      display: none;
+    }
+}
 

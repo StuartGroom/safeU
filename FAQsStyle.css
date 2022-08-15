@@ -169,3 +169,12 @@ nav a:hover::before{
     line-height: 50px;
     color: black;
 }
+
+
+
+/*hides social media wrapper on mobiles - screen too small*/
+@media (max-width: 768px) {
+    .wrapper {
+      display: none;
+    }
+}

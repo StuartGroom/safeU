@@ -71,14 +71,15 @@ nav a:hover::before{
 /*main*/
 main .title{
     width: 100vw;
-    top: 100px;
-    position: absolute;
+    position: relative;
     text-align: center;
     text-decoration: underline;
     font-size: 36px;
+    margin-top: 100px;
 }
 /* product info circle*/
 .productMain{
+
     display:inline-block;
     height: 50vh;
     width:50%;
@@ -365,4 +366,12 @@ main .productCustomise {
     font-size: 25px;
     line-height: 50px;
     color: black;
+}
+
+
+/*hides social media wrapper on mobiles - screen too small*/
+@media (max-width: 768px) {
+    .wrapper {
+      display: none;
+    }
 }
