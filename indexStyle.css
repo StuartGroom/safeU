@@ -139,12 +139,12 @@ main .one {
 }
 .vision{
     margin-left: 10%;
-    border: 1px solid #555;
+    /* border: 1px solid #555; */
     max-width: 30vw;
     text-align: center;
-    background-color: rgba(224,255,251,255);
+    /* background-color: rgba(224,255,251,255); */
     padding: 5px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     display:inline-block;
 }
 .vision h1{
@@ -154,14 +154,14 @@ main .one {
     font-size: 28px;
 }
 .mission{
-    border: 1px solid #555;
+    /* border: 1px solid #555; */
     max-width: 30vw;
     float: left;
     margin-left: 10%;
     text-align: center;
-    background-color: rgba(224,255,251,255);
+    /* background-color: rgba(224,255,251,255); */
     padding: 5px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
 }
 .mission h1{
     text-decoration: underline;

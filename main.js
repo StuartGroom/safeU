@@ -16,14 +16,14 @@ for (i = 0; i < faq.length; i++) {
     });
 }
 
-//product 
-document.querySelectorAll( '.productCircle' ).forEach( ( productCircle )=>{
-    let circles = productCircle.querySelectorAll( '.circle' )
-    let angle = 360-90, dangle = 360 / circles.length
-    for( let i = 0; i < circles.length; ++i ){
-      let circle = circles[i]
-      angle += dangle
-      circle.style.transform = `rotate(${angle}deg) translate(${productCircle.clientWidth/1.1}px) rotate(-${angle}deg)`
-    }
-})
+// //product 
+// document.querySelectorAll( '.productCircle' ).forEach( ( productCircle )=>{
+//     let circles = productCircle.querySelectorAll( '.circle' )
+//     let angle = 360-90, dangle = 360 / circles.length
+//     for( let i = 0; i < circles.length; ++i ){
+//       let circle = circles[i]
+//       angle += dangle
+//       circle.style.transform = `rotate(${angle}deg) translate(${productCircle.clientWidth/1.1}px) rotate(-${angle}deg)`
+//     }
+// })
 
