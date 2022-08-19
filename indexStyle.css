@@ -112,7 +112,9 @@ main .one {
 /*main*/
 .about{
     position: absolute;
+    display: inline-block;
     width: 100vw;
+    background-color: blue;
 }
 .about span{
     /* min-width: calc(100%-100px);
@@ -171,8 +173,25 @@ main .one {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .release{
-    position: relative;
+    background-color: red;
     margin-top: 500px;
     width: 100vw;
 }
@@ -194,6 +213,19 @@ main .one {
 .releaseInfo p{
     font-size: 24px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

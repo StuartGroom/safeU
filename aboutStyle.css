@@ -67,6 +67,7 @@ nav a:hover::before{
 
 /*about section*/
 .about-section {
+    
     padding: 50px;
     text-align: center;
     color: black;
@@ -76,8 +77,11 @@ nav a:hover::before{
     margin: auto;
 }
 .otherInfo{
+    background: #ECF7F8; /*place holder colour*/
     text-align: center;
     color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .otherInfo p{
     width: 70vw;

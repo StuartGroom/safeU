@@ -16,6 +16,8 @@ for (i = 0; i < faq.length; i++) {
     });
 }
 
+
+
 // //product 
 // document.querySelectorAll( '.productCircle' ).forEach( ( productCircle )=>{
 //     let circles = productCircle.querySelectorAll( '.circle' )
@@ -26,4 +28,6 @@ for (i = 0; i < faq.length; i++) {
 //       circle.style.transform = `rotate(${angle}deg) translate(${productCircle.clientWidth/1.1}px) rotate(-${angle}deg)`
 //     }
 // })
+
+
 
