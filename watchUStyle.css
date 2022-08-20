@@ -414,12 +414,8 @@ main .productCustomise {
     width: 100vw;
     background-color: #ECF7F8; /*place holder colour*/
     padding-bottom: 50px;
+    padding-top: 25px;
 }
-
-.banner img{
-    width: 100%;
-}
-
 .releaseInfo{
     margin: 0 auto;
     max-width: 80vw;
