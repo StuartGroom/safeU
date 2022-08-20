@@ -135,7 +135,7 @@ nav a:hover::before{
     color: black;
 }
 .about-section p{
-    width: 70vw;
+    width: 80vw;
     margin: auto;
 }
 .otherInfo{
@@ -166,6 +166,7 @@ nav a:hover::before{
     margin: auto;
     margin-top: 50px;
     text-decoration: underline;
+    margin-bottom: 100px;
 }
 .teamContainer h1{
     text-align: center;
@@ -214,6 +215,7 @@ nav a:hover::before{
     text-align: center;
     cursor: pointer;
     width: 100%;
+
 }
 .button:hover {
     background-color: #555;
