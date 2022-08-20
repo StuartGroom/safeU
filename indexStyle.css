@@ -313,42 +313,6 @@ main .one {
 
 
 
-.release{
-    position: relative;
-    width: 100vw;
-}
-
-.banner img{
-    width: 100%;
-}
-
-.releaseInfo{
-    margin: 0 auto;
-    max-width: 80vw;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.releaseInfo h1{
-    font-size: 38px;
-    text-decoration: underline;
-}
-.releaseInfo p{
-    font-size: 24px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*social media*/

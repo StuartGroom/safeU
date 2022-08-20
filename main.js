@@ -46,16 +46,7 @@ function SlideShow(n) {
   circles[slidePosition-1].className += " enable";
 } 
 
-// //product 
-// document.querySelectorAll( '.productCircle' ).forEach( ( productCircle )=>{
-//     let circles = productCircle.querySelectorAll( '.circle' )
-//     let angle = 360-90, dangle = 360 / circles.length
-//     for( let i = 0; i < circles.length; ++i ){
-//       let circle = circles[i]
-//       angle += dangle
-//       circle.style.transform = `rotate(${angle}deg) translate(${productCircle.clientWidth/1.1}px) rotate(-${angle}deg)`
-//     }
-// })
+
 
 
 
@@ -64,7 +55,6 @@ toggle between hiding and showing the dropdown content */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
-
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {

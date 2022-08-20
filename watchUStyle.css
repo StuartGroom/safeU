@@ -260,80 +260,6 @@ main .title{
     }
   }
 
-/* .productIcons img{
-    background-color: yellow;
-    height: 100px;
-    width: 100px;
-    border: 5px black;
-} */
-
-
-/* .productIcons{
-    background-color: blue;
-    position: relative;
-    width: 50vw;
-    height: 50vh;
-    max-width: 600px;
-    max-height: 50vh;
-    font-size: 30px;
-    float: left;
-} */
-/* circle
-.productDiagram{
-    display:inline-block; 
-    margin: auto;
-    vertical-align: middle;
-}
-.productCircle {
-    position: relative;
-    width: 25vw;
-    height: 25vh;
-    max-width: 350px;
-    max-height: 350px;
-    margin: calc(100px / 2 + 0px);
-    font-size: 30px;
-}
-.productCircle:before {
-	content: "";
-	position: absolute;
-	top: 0; left: 0;
-    width: calc( 100% - 2px * 2);
-    height: calc( 100% - 2px * 2 );
-    border-radius: 50%;
-}
-.productCircle .circle {
-	position: absolute;
-    top: 45%; left: 45%;
-    width: 150px;
-    height: 150px;
-    margin: calc( -100px / 2 );
-    background: rgba(224,255,251,255);
-    border-radius: 50%;
-    text-align: center;
-    cursor: pointer;
-}
-.productCircle .circle i{
-    position: absolute;
-    top: 35%; left: 35%; 
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    z-index: 1;
-}
-.productCircle .product {
-    display: block;
-    border-radius: 50%;
-} 
-.productCircle .product img {
-    display: block;
-    margin: auto;
-    height: 23vh;
-    border-radius: 25px;
-} */
-
-
-
 
 
 
@@ -483,6 +409,30 @@ main .productCustomise {
 }
 
 
+.release{
+    position: relative;
+    width: 100vw;
+    background-color: #ECF7F8; /*place holder colour*/
+    padding-bottom: 50px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.releaseInfo{
+    margin: 0 auto;
+    max-width: 80vw;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.releaseInfo h1{
+    font-size: 38px;
+    text-decoration: underline;
+}
+.releaseInfo p{
+    font-size: 24px;
+}
 
 
 /*social media bar*/
