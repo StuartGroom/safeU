@@ -10,8 +10,7 @@ body{
 /*nav bar*/
 .container{
     width:80%;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 header{
     background: rgba(224,255,251,255);
@@ -137,11 +136,13 @@ main .one {
     padding:1.5rem 7%;
     padding-top: 4rem;
     display: flex;  
+    margin: 0 auto; 
 }
 .one .image {
-    position: relative;
+    display: absolute;
     width: 20vw;
-
+    margin-left: -17vw;
+    
 }
 .one .image img{
     float: left;
@@ -153,9 +154,10 @@ main .one {
     margin-top: -75px;
 }
 .one .content{
+    padding-left: 10vw;
     margin-top: -100px;
     align-content: left;
-    width: 50%
+    width: 50%;
 }
 .one .content h1{
     line-height: 0.4;
@@ -218,7 +220,24 @@ main .one {
     font-size: 20px;
 }
 
-
+/*resizes image and title text in banner when screen size is small*/
+@media (max-width: 768px) {
+    .one .content h1{
+        font-size: 32px;
+        margin-top: 50px; 
+    }
+    .one .content p{
+        font-size: 16px; 
+        margin-top: 25px;
+    }
+    .one .image img{
+        width: 100px;
+    }
+    .sideBySide{
+        width:80%;
+        margin-left: 10%;
+    }
+}
    
 
 /* Slideshow container */

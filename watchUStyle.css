@@ -65,23 +65,16 @@ nav a:hover::before{
 
 
 
-
-
-
-
-
-
-
 /* Dropdown Button */
 .dropbtn {
     background-color: rgba(224,255,251,255);
     color: rgb(100,116,116);
-    padding: 16px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
     border: none;
     cursor: pointer;
+    padding-top: 25px;
   }
   
   /* Dropdown button on hover & focus */
@@ -98,7 +91,8 @@ nav a:hover::before{
     width: 0%;
 }
 .dropbtn:hover::before{
-    width: 68%;
+    margin-left: -6px; /*weird value to center the over button highlight*/
+    width: 100%;
     transition: all ease-in-out 250ms;
 }
 

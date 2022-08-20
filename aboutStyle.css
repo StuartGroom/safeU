@@ -221,6 +221,18 @@ nav a:hover::before{
     background-color: #555;
 }
 
+/*resizes team cards when screen size is small - add resize on article photo?*/
+@media (max-width: 768px) {
+   
+    .column{
+        max-width: 90vw;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
 
 
 /*social media*/ 
