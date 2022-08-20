@@ -101,3 +101,7 @@ function hide6(){
     document.getElementById('hoverText').style.display = "inherit"; 
     document.getElementById('hiddenText6').style.display = "none"; 
 }
+
+
+
+  

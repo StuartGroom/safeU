@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="watchUStyle.css">
+    <script src="https://kit.fontawesome.com/935b67cf83.js" crossorigin="anonymous"></script>
+    <title>Business website</title>
+
+  </head>
+  <body onload = "hideAll()"> <!-- hides all hidden text on page load-->
+    
+        <header>
+            <div class ="container">
+                <a href="./index.html"><img src="images/logoName.PNG" alt=logo class="logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Product</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="./watchU.html">WatchU</a>
+                                    <a href="./drinkCover.html">drinks cover</a>
+                                    <a href="./popSocket.html">popsocket alarm</a>
+                                </div>
+                            </div>
+                            <!-- <a href="./product.html">Product</a> -->
+                        </li>
+                        <li><a href="./socialmedia.html">Social Media</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./FAQs.html">FAQs</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <main>
+
+            <!-- <div class="title">
+                <p> Personal safety device</p>
+                <h1>WatchU </h1>
+            </div> -->
+
+            <!-- <h1 class="title">WatchU: Personal safety device</h1> -->
+
+            <div class ="productMain">
+                <div class = "productLeft">
+
+                    <span class="productImage">
+                        <img src = "images/productOnWatch.PNG";>
+                    </span>
+
+                    <div class = "infoHolder">
+                        <p id = "hoverText"> 
+                            Hi! Try hovering over (or tapping on mobile) the icons to learn more about Uwatch
+                        </p>
+                        <p id = "hiddenText"> 
+                            Discrete! Small silicone band which discretely slides on to your watch   
+                        </p>
+                        <p id = "hiddenText2"> 
+                            Easy to attach! Simply clip onto your watch or lanyard
+                        </p>
+                        <p id = "hiddenText3"> 
+                            Long battery life!
+                        </p>
+                        <p id = "hiddenText4"> 
+                            Great build quality! Made from durable, water proof and ... silicone
+                        </p>
+                        <p id = "hiddenText5"> 
+                            Easy to use! Simply push the button on the side of the Uwatch
+                        </p>
+                        <p id = "hiddenText6"> 
+                            LOUD! 130dBs, this can be heard from up to half a mile
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="iconsContainer">
+
+                            <!--volume-->
+                            <div class="icon" onmouseover = "show6(this)" onmouseout ="hide6(this)" id = "alarmButton">
+                                <!-- <i class="fas fa-circle-thin fa-stack-2x"></i> -->
+                                <i> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M412.6 182c-10.28-8.334-25.41-6.867-33.75 3.402c-8.406 10.24-6.906 25.35 3.375 33.74C393.5 228.4 400 241.8 400 255.1c0 14.17-6.5 27.59-17.81 36.83c-10.28 8.396-11.78 23.5-3.375 33.74c4.719 5.806 11.62 8.802 18.56 8.802c5.344 0 10.75-1.779 15.19-5.399C435.1 311.5 448 284.6 448 255.1S435.1 200.4 412.6 182zM473.1 108.2c-10.22-8.334-25.34-6.898-33.78 3.34c-8.406 10.24-6.906 25.35 3.344 33.74C476.6 172.1 496 213.3 496 255.1s-19.44 82.1-53.31 110.7c-10.25 8.396-11.75 23.5-3.344 33.74c4.75 5.775 11.62 8.771 18.56 8.771c5.375 0 10.75-1.779 15.22-5.431C518.2 366.9 544 313 544 255.1S518.2 145 473.1 108.2zM534.4 33.4c-10.22-8.334-25.34-6.867-33.78 3.34c-8.406 10.24-6.906 25.35 3.344 33.74C559.9 116.3 592 183.9 592 255.1s-32.09 139.7-88.06 185.5c-10.25 8.396-11.75 23.5-3.344 33.74C505.3 481 512.2 484 519.2 484c5.375 0 10.75-1.779 15.22-5.431C601.5 423.6 640 342.5 640 255.1S601.5 88.34 534.4 33.4zM301.2 34.98c-11.5-5.181-25.01-3.076-34.43 5.29L131.8 160.1H48c-26.51 0-48 21.48-48 47.96v95.92c0 26.48 21.49 47.96 48 47.96h83.84l134.9 119.8C272.7 477 280.3 479.8 288 479.8c4.438 0 8.959-.9314 13.16-2.835C312.7 471.8 320 460.4 320 447.9V64.12C320 51.55 312.7 40.13 301.2 34.98z"/></svg>
+                                </i>
+                                <h2>
+                                    Alarm volume
+                                </h2>
+                            </div>
+                            <!--how to use-->
+                            <div class="icon" onmouseover = "show5(this)" onmouseout ="hide5(this)" id = "useButton">
+                                <!-- <i class="fas fa-circle-thin fa-stack-2x"></i> -->
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M480 128v208c0 97.05-78.95 176-176 176h-37.72c-53.42 0-103.7-20.8-141.4-58.58l-113.1-113.1C3.906 332.5 0 322.2 0 312C0 290.7 17.15 272 40 272c10.23 0 20.47 3.906 28.28 11.72L128 343.4V64c0-17.67 14.33-32 32-32s32 14.33 32 32l.0729 176C192.1 248.8 199.2 256 208 256s16.07-7.164 16.07-16L224 32c0-17.67 14.33-32 32-32s32 14.33 32 32l.0484 208c0 8.836 7.111 16 15.95 16S320 248.8 320 240L320 64c0-17.67 14.33-32 32-32s32 14.33 32 32l.0729 176c0 8.836 7.091 16 15.93 16S416 248.8 416 240V128c0-17.67 14.33-32 32-32S480 110.3 480 128z"/></svg>
+                                </i>
+                                <h2>
+                                    How to use
+                                </h2>
+                            </div>
+
+                    
+                    
+
+                            <!--build-->
+                            <div class="icon" onmouseover = "show4(this)" onmouseout ="hide4(this)" id = "buildButton">
+                                <!-- <i class="fas fa-circle-thin fa-stack-2x"></i> -->
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M507.6 122.8c-2.904-12.09-18.25-16.13-27.04-7.338l-76.55 76.56l-83.1-.0002l0-83.1l76.55-76.56c8.791-8.789 4.75-24.14-7.336-27.04c-23.69-5.693-49.34-6.111-75.92 .2484c-61.45 14.7-109.4 66.9-119.2 129.3C189.8 160.8 192.3 186.7 200.1 210.1l-178.1 178.1c-28.12 28.12-28.12 73.69 0 101.8C35.16 504.1 53.56 512 71.1 512s36.84-7.031 50.91-21.09l178.1-178.1c23.46 7.736 49.31 10.24 76.17 6.004c62.41-9.84 114.6-57.8 129.3-119.2C513.7 172.1 513.3 146.5 507.6 122.8zM80 456c-13.25 0-24-10.75-24-24c0-13.26 10.75-24 24-24s24 10.74 24 24C104 445.3 93.25 456 80 456z"/></svg>
+                                </i>
+                                <h2>
+                                    Build quality
+                                </h2>
+                            </div>
+                            <!--battery life-->
+                            <div class="icon" onmouseover = "show3(this)" onmouseout ="hide3(this)" id = "batteryButton">
+                                <!-- <i class="fas fa-circle-thin fa-stack-2x"></i> -->
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M448 320H96V192H448V320zM0 176C0 131.8 35.82 96 80 96H464C508.2 96 544 131.8 544 176V192C561.7 192 576 206.3 576 224V288C576 305.7 561.7 320 544 320V336C544 380.2 508.2 416 464 416H80C35.82 416 0 380.2 0 336V176zM80 160C71.16 160 64 167.2 64 176V336C64 344.8 71.16 352 80 352H464C472.8 352 480 344.8 480 336V176C480 167.2 472.8 160 464 160H80z"/></svg>
+                                </i>
+                                <h2>
+                                    Battery life
+                                </h2>
+                            </div>
+
+                            <!--easily attached-->
+                            <div class="icon" onmouseover = "show2(this)" onmouseout ="hide2(this)" id = "attachButton">
+                                <!-- <i class="fas fa-circle-thin fa-stack-2x"></i> -->
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+                                </i>
+                                <h2>
+                                    How to attach
+                                </h2>
+                            </div>
+                            <!--discrete-->
+                            <div class="icon" onmouseover = "show(this)" onmouseout ="hide(this)" id = "discreteButton">
+                                <!-- <i class="fas fa-circle-thin fa-stack-2x"></i> -->
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M377.7 338.8l37.15-92.87C419 235.4 411.3 224 399.1 224h-57.48C348.5 209.2 352 193 352 176c0-4.117-.8359-8.057-1.217-12.08C390.7 155.1 416 142.3 416 128c0-16.08-31.75-30.28-80.31-38.99C323.8 45.15 304.9 0 277.4 0c-10.38 0-19.62 4.5-27.38 10.5c-15.25 11.88-36.75 11.88-52 0C190.3 4.5 181.1 0 170.7 0C143.2 0 124.4 45.16 112.5 88.98C63.83 97.68 32 111.9 32 128c0 14.34 25.31 27.13 65.22 35.92C96.84 167.9 96 171.9 96 176C96 193 99.47 209.2 105.5 224H48.02C36.7 224 28.96 235.4 33.16 245.9l37.15 92.87C27.87 370.4 0 420.4 0 477.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 420.4 420.1 370.4 377.7 338.8zM176 479.1L128 288l64 32l16 32L176 479.1zM271.1 479.1L240 352l16-32l64-32L271.1 479.1zM320 186C320 207 302.8 224 281.6 224h-12.33c-16.46 0-30.29-10.39-35.63-24.99C232.1 194.9 228.4 192 224 192S215.9 194.9 214.4 199C209 213.6 195.2 224 178.8 224h-12.33C145.2 224 128 207 128 186V169.5C156.3 173.6 188.1 176 224 176s67.74-2.383 96-6.473V186z"/></svg>
+                                </i>     
+                                <h2>
+                                    Discrete
+                                </h2>  
+                            </div>
+
+                </div>      
+                    
+            </div>
+        </div>
+
+            
+            <div class = "productCustomiseContainer">
+
+                <!--left column/ image-->
+                <div class ="leftColumn">
+                    <img data-image="black" src="images/blackProduct1.png" alt="">
+                    <img data-image="white" src="images/whiteProduct2.png" alt="">
+                    <img data-image="green" src="images/greenProduct1.png" alt="">
+                    <img data-image="pink" class="active" src="images/pinkProduct1.png" alt="">
+                </div>
+
+                <!--right column-->
+               <div class ="rightColumn">
+                    <div class= "productDescription">
+                        <span>Personal Safety Alarm</span>
+                        <h1>WatchU</h1>
+                        <p class = "hiddenText">WatchU is a personal safety alarm that omits 130 DB which can be
+                            heard half a mile away. The alarm is encased in a small silicone band which discretely slides
+                            onto your watch. The device is accessible to activate through an on/off switch in an
+                            emergency and acts as an instant deterrent.
+                        </p>
+                    </div>
+                    <!-- product configuartion-->
+                    <div class="productConfig">
+                        
+                        <!-- product colour-->
+                        <div class="productColour">
+                            <span>Select Colour</span>
+
+                            <div class="colourChoose">
+                                <div>
+                                    <input data-image="pink" type="radio" id="pink" name="color" value="pink" checked>
+                                    <label for="pink"><span></span></label>
+                                </div>
+                                <div>
+                                    <input data-image="green" type="radio" id="green" name="color" value="green">
+                                    <label for="green"><span></span></label>
+                                </div>
+                                <div>
+                                    <input data-image="white" type="radio" id="white" name="color" value="white">
+                                    <label for="white"><span></span></label>
+                                </div>
+                                <div>
+                                    <input data-image="black" type="radio" id="black" name="color" value="black">
+                                    <label for="black"><span></span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="productPrice">
+                        <span>£14.99</span>
+                    </div>  
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <!-- social bar -->
+            <div class="wrapper">
+                <div class="socialSidebar">
+                    <ul>
+                        <li style="list-style-type: none;"> <a href="mailto: safeusolutions@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+
+                        <li style="list-style-type: none;"> <a href="https://twitter.com/SafeU_Official" target="_blank"><i class="fab fa-twitter"></i></a></li>
+
+                        <li style="list-style-type: none;"> <a href="https://www.instagram.com/safeu_official/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <div class="vertical"></div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+        <script src="product.js" charset="utf-8"></script>
+  </body>
+</html>

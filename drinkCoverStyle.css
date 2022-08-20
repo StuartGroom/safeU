@@ -5,8 +5,8 @@ body{
     background: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    box-sizing: border-box;
 }
+
 
 /*nav bar*/
 .container{
@@ -127,104 +127,27 @@ nav a:hover::before{
 
 
 
-/*about section*/
-.about-section {
-    
-    padding: 50px;
-    text-align: center;
-    color: black;
-}
-.about-section p{
-    width: 70vw;
-    margin: auto;
-}
-.otherInfo{
-    background: #ECF7F8; /*place holder colour*/
-    text-align: center;
-    color: black;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-.otherInfo p{
-    width: 70vw;
-    margin: auto;
-
-}
-.otherInfo img{
-    width: 50vw;
-    margin: auto;
-    margin-top: 50px;
-}
 
 
 
-/*team members section*/
-.teamContainer{
-    display: block;
-    width: 100vw;
-    margin: auto;
-    margin-top: 50px;
-    text-decoration: underline;
-}
-.teamContainer h1{
-    text-align: center;
-    font-size: 42px;
-}
-.teamCards{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.teamContainer::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.column {
-    float: left;
-    width: 400px;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-    height: 750px;
-}
-.card img{
-    height: 60%;
-    width: 100%;
-}
-.cardContainer {
-    padding: 0 16px;
-    text-align: center;
-}
-.title {
-    color: grey;
-}
-.button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-}
-.button:hover {
-    background-color: #555;
-}
 
 
 
-/*social media*/ 
+
+
+/*main*/
+
+
+
+
+
+
+
+
+/*social media bar*/
 .wrapper {
     display: flex;
     position: fixed;
-   
 }
 .wrapper .socialSidebar {
     position: fixed;
@@ -237,7 +160,7 @@ nav a:hover::before{
     border-left: 2px solid black;
     height: 100px;
     width: 100px;
-    margin-left: 60px; /*centers vertical line with icons*/
+    margin-left: 60px; /*centers vertical line with icons*/ 
 }
 /*makes the icon glow when hovered over*/
 .wrapper .socialSidebar ul li:hover a{

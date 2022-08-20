@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="socialmediaStyle.css">
+    <link rel="stylesheet" href="popSocketStyle.css">
     <script src="https://kit.fontawesome.com/935b67cf83.js" crossorigin="anonymous"></script>
     <title>Business website</title>
-  </head>
 
-  <body>
+  </head>
+  <body onload = "hideAll()"> <!-- hides all hidden text on page load-->
+    
         <header>
             <div class ="container">
                 <a href="./index.html"><img src="images/logoName.PNG" alt=logo class="logo"></a>
@@ -36,25 +37,10 @@
             </div>
         </header>
     
-
-
-
-
         <main>
-            <div class = "twitterFeed">
-                <a class="twitter-timeline" href="https://twitter.com/SafeU_Official?ref_src=twsrc%5Etfw">Tweets by SafeU_Official</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <div class = "followButton">
-                    <a href="https://twitter.com/SafeU_Official?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @SafeU_Official</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </div>
 
-            <div class = "instagramFeed">
-                <div class="embedsocial-hashtag" data-ref="bbb3c0e52e9decbb1fe3edcefaf5cf1e4c269721"><a class="feed-powered-by-es feed-powered-by-es-slider-new" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Widget by EmbedSocial">Widget by EmbedSocial<span>→</span></a></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialHashtagScript"));</script>
-            </div>
+            
         </main>
-
-
-
 
         <footer>
             <!-- social bar -->
@@ -71,6 +57,9 @@
                 </div>
             </div>
         </footer>
+
         <script src="main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+        <script src="product.js" charset="utf-8"></script>
   </body>
 </html>
