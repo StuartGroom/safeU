@@ -66,7 +66,12 @@ function SlideShow(n) {
 } 
 
 // trying to make slideshow automatically move through slides
-function autoSlideShow(){
-  setInterval(plusSlides(+1), 1000);
-}
+// function autoSlideShow(){
+//   setInterval(plusSlides(+1), 1000);
+// }
+
+const interval = setInterval(function() {
+  // method to be executed;
+  setInterval(plusSlides(+1), 0);
+}, 5000);
 
