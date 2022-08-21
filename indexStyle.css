@@ -10,7 +10,8 @@ body{
 /*nav bar*/
 .container{
     width:80%;
-    margin: 0 auto; 
+    margin: 0 auto;
+    background-color: #f5f5f7;
 }
 header{
     background: rgba(224,255,251,255);
@@ -174,7 +175,6 @@ main .one {
 /*main*/
 .about{
     position: relative;
-    display: inline-block;
     width: 98.5vw;
 }
 .about span{
@@ -183,42 +183,58 @@ main .one {
     position: relative;
 }
 .sideBySide{
-    display:inline-block;
-    vertical-align: middle;
+    height: 22vw;
+    display: flex;
     align-items: center;
-    width: 100%; 
+    width: 100vw; 
 }
-.vision{
-    margin-left: 10%;
-    max-width: 30vw;
-    text-align: center;
-    padding: 5px;
-    display:inline-block;
-}
-.vision h1{
-    text-decoration: underline;
-    font-size: 24px;
-}
-.vision p{
-    font-size: 20px;
-}
+
 .mission{
-    /* border: 1px solid #555; */
     max-width: 30vw;
     float: left;
-    margin-left: 10%;
+    margin-left: 10vw;
     text-align: center;
-    /* background-color: rgba(224,255,251,255); */
     padding: 5px;
-    /* border-radius: 25px; */
 }
 .mission h1{
-    text-decoration: underline;
-    font-size: 24px;
+    font-size: 32px;
+    text-align: right;
+    margin-bottom: -20px;
 }
 .mission p{
     font-size: 20px;
+    text-align: right;
 }
+
+
+.logo2{
+    max-width: 20vw;
+    /* display:inline-block; */
+    float: left;
+}
+.logo2 img{
+    max-width: 20vw;
+}
+
+
+.vision{
+    max-width: 30vw;
+    text-align: center;
+    padding: 5px;
+    float: left;
+}
+.vision h1{
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: -20px;
+}
+.vision p{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
 
 /*resizes image and title text in banner when screen size is small*/
 @media (max-width: 768px) {
