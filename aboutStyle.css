@@ -166,11 +166,14 @@ nav a:hover::before{
     margin: auto;
     margin-top: 50px;
     text-decoration: underline;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    /* margin-left: 75px;
+    margin-right: 75px; */
 }
 .teamContainer h1{
     text-align: center;
     font-size: 42px;
+    
 }
 .teamCards{
     width: 100%;
@@ -187,11 +190,12 @@ nav a:hover::before{
     float: left;
     width: 400px;
     margin-bottom: 16px;
-    padding: 0 8px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+    align-self: center;
     height: 750px;
 }
 .card img{
@@ -201,6 +205,7 @@ nav a:hover::before{
 .cardContainer {
     padding: 0 16px;
     text-align: center;
+    height: 250px;
 }
 .title {
     color: grey;
@@ -214,9 +219,22 @@ nav a:hover::before{
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
-
+    width: 100%; 
 }
+.button2 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+
 .button:hover {
     background-color: #555;
 }
@@ -227,8 +245,12 @@ nav a:hover::before{
     .column{
         max-width: 90vw;
         margin-bottom: 30px;
+        margin-left: 2.5vw;
     }
-
+    .otherInfo a img{
+        height: 400px;
+        width: 300px;
+    }
 
 }
 

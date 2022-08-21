@@ -12,6 +12,7 @@ body{
     width:80%;
     margin: 0 auto;
     background-color: #f5f5f7;
+   
 }
 header{
     background: rgba(224,255,251,255);
@@ -138,17 +139,17 @@ main .one {
     padding-top: 4rem;
     display: flex;  
     margin: 0 auto; 
+    
 }
 .one .image {
     display: absolute;
     width: 20vw;
     margin-left: -17vw;
-    
+    max-width: 90vw;
 }
 .one .image img{
     float: left;
     width: 50%;
-    
     width: 100%;
     max-height: 300px;
     max-width: 300px;
@@ -175,7 +176,7 @@ main .one {
 /*main*/
 .about{
     position: relative;
-    width: 98.5vw;
+    width: 100vw;
 }
 .about span{
     font-size: 24px;
@@ -236,7 +237,7 @@ main .one {
 
 
 
-/*resizes image and title text in banner when screen size is small*/
+/*resizes image and title text in banner and carousel when screen size is small*/
 @media (max-width: 768px) {
     .one .content h1{
         font-size: 32px;
@@ -250,8 +251,13 @@ main .one {
         width: 100px;
     }
     .sideBySide{
-        width:80%;
+        width:80vw;
         margin-left: 10%;
+    }
+    .carouselContainer{
+        top: 300px;
+        margin-bottom: 50px;
+        background-color: red;
     }
 }
    
@@ -261,6 +267,7 @@ main .one {
     box-sizing:border-box;
     position: relative;
     margin: auto;
+    width: 100vw;
     max-width: 1500px;
 }
 
