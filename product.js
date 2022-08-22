@@ -93,19 +93,44 @@ function show6() {
     document.getElementById('alarmButton').style.background = "pink";
     document.getElementById('hoverText').style.display = "none"; 
     document.getElementById('hiddenText6').style.display = "inherit"; 
+
+    /*handles the card transformation*/
+    document.getElementById("cardCircle").style.backgroundColor = "blue";
+    document.getElementById("cardProductImage").style.marginLeft = "200px";
+    document.getElementById("cardContent").style.left = "0";
+    document.getElementById("cardContent").style.visibility = "visible";
+    document.getElementById("cardContent").style.opacity = "1";
+
+    document.getElementById("alarmText").style.visibility = "visible";
+    document.getElementById("discreteText").style.display = "none";
+    document.getElementById("alarmTitle").style.visibility = "visible";
+    document.getElementById("discreteTitle").style.display = "none";
+    /*need to optimise this so it doesnt need to set all to being not visible- check style?*/ 
 }
 
 function hide6(){
     document.getElementById('alarmButton').style.background = "white";
     document.getElementById('hoverText').style.display = "inherit"; 
     document.getElementById('hiddenText6').style.display = "none"; 
+
+    /*handles the card transformation*/
+    document.getElementById("cardCircle").style.backgroundColor = "pink";
+    document.getElementById("cardProductImage").style.marginLeft = "0px";
+    document.getElementById("cardContent").style.left = "0";
+    document.getElementById("cardContent").style.visibility = "hidden";
+    document.getElementById("cardContent").style.opacity = "0";
 }
 
 
 $('.alarmButton').mouseover(hoverOne);
 var hoverOne = function(){
-    document.getElementById('.productMain .circle').style.background = "blue";
+    document.getElementById('.alarmText').style.visibility = "visible";
+    document.getElementById('cardCircle').style.backgroundColor = "blue";
+    window.alert("sometext");
 }
-
+$('.discreteButton').mouseover(hoverOne);
+var hoverOne = function(){
+    document.getElementById('.discreteText').style.visibility = "visible";
+}
 
   

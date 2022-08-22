@@ -76,10 +76,10 @@ nav a:hover::before{
   }
   
   /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover, .dropbtn:focus {
     color: black;
-  }
-  .dropbtn:before{
+}
+.dropbtn:before{
     content: '';
     display: block;
     height: 5px;
@@ -92,6 +92,38 @@ nav a:hover::before{
     width: 68%;
     transition: all ease-in-out 250ms;
 }
+
+/* nav li{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 25px;
+    position: relative;
+}
+nav a{
+    color: rgb(100,116,116);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover{
+    color: black;
+}
+nav a:before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+nav a:hover::before{
+    width: 100%;
+    transition: all ease-in-out 250ms;
+} */
+
+
+
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
