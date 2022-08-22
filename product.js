@@ -26,7 +26,7 @@ function show() {
     document.getElementById('hoverText').style.display = "none"; 
     document.getElementById('hiddenText').style.display = "inherit"; 
 
-    document.getElementById('discreteButton').style.borderWidth = "4px";
+    document.getElementById('discreteButton').style.borderWidth = "1px";
     document.getElementById('infoHolder').style.background = "pink";
 
 }
@@ -37,10 +37,9 @@ function hide(){
     document.getElementById('discreteButton').style.background = "white";
     document.getElementById('hoverText').style.display = "inherit"; 
     document.getElementById('hiddenText').style.display = "none"; 
-    document.getElementById('discreteButton').style.borderWidth = "2px";
 }
 
-function show2() {  /*"rgb(255,240,245)"*/
+function show2() {  
     document.getElementById('attachButton').style.background = "pink";
     document.getElementById('hoverText').style.display = "none"; 
     document.getElementById('hiddenText2').style.display = "inherit"; 
@@ -102,6 +101,11 @@ function hide6(){
     document.getElementById('hiddenText6').style.display = "none"; 
 }
 
+
+$('.alarmButton').mouseover(hoverOne);
+var hoverOne = function(){
+    document.getElementById('.productMain .circle').style.background = "blue";
+}
 
 
   
