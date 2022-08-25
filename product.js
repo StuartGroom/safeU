@@ -191,15 +191,5 @@ function hide6(){
 }
 
 
-$('.alarmButton').mouseover(hoverOne);
-var hoverOne = function(){
-    document.getElementById('.alarmText').style.visibility = "visible";
-    document.getElementById('cardCircle').style.backgroundColor = "blue";
-    window.alert("sometext");
-}
-$('.discreteButton').mouseover(hoverOne);
-var hoverOne = function(){
-    document.getElementById('.discreteText').style.visibility = "visible";
-}
 
   
