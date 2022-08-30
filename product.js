@@ -20,7 +20,7 @@ function hideAll(){
 }
 
 function show() {; 
-    document.getElementById('discreteButton').style.background = "pink";
+    document.getElementById('discreteButton').style.background = "rgba(145,207,186,255)";
     /*handles the card transformation*/
     document.getElementById("cardCircle").style.backgroundColor = "blue";
     document.getElementById("cardProductImage").style.marginLeft = "200px";
@@ -29,7 +29,7 @@ function show() {;
     document.getElementById("cardContent").style.opacity = "1";
     document.querySelector(".content .discreteInfo").style.visibility = "visible";
     document.querySelector(".content .discreteInfo").style.display = "inline-block";
-    document.getElementById("cardCircle").style.backgroundColor = "pink";
+    document.getElementById("cardCircle").style.backgroundColor = "rgba(145,207,186,255)";
     document.getElementById("cardCircle").style.transition= "0.5s ease";
     document.getElementById("cardCircle").style.clipPath("circle(400px at center)")
 
@@ -48,7 +48,7 @@ function hide(){
 }
 
 function show2() {  
-    document.getElementById('attachButton').style.background = "pink";
+    document.getElementById('attachButton').style.background = "rgba(145,207,186,255";
 
     /*handles the card transformation*/
     document.getElementById("cardCircle").style.backgroundColor = "blue";
@@ -58,7 +58,7 @@ function show2() {
     document.getElementById("cardContent").style.opacity = "1";
     document.querySelector(".content .attachInfo").style.visibility = "visible";
     document.querySelector(".content .attachInfo").style.display = "inline-block";
-    document.getElementById("cardCircle").style.backgroundColor = "pink";
+    document.getElementById("cardCircle").style.backgroundColor = "rgba(145,207,186,255";
     document.getElementById("cardCircle").style.transition= "0.5s ease";
     document.getElementById("cardCircle").style.clipPath("circle(400px at center)")
 }
@@ -77,7 +77,7 @@ function hide2(){
 }
 
 function show3() {
-    document.getElementById('batteryButton').style.background = "pink";
+    document.getElementById('batteryButton').style.background = "rgba(145,207,186,255";
     /*handles the card transformation*/
     document.getElementById("cardCircle").style.backgroundColor = "blue";
     document.getElementById("cardProductImage").style.marginLeft = "200px";
@@ -86,7 +86,7 @@ function show3() {
     document.getElementById("cardContent").style.opacity = "1";
     document.querySelector(".content .batteryInfo").style.visibility = "visible";
     document.querySelector(".content .batteryInfo").style.display = "inline-block";
-    document.getElementById("cardCircle").style.backgroundColor = "pink";
+    document.getElementById("cardCircle").style.backgroundColor = "rgba(145,207,186,255";
     document.getElementById("cardCircle").style.transition= "0.5s ease";
     document.getElementById("cardCircle").style.clipPath("circle(400px at center)")
 
@@ -107,7 +107,7 @@ function hide3(){
 }
 
 function show4() {
-    document.getElementById('buildButton').style.background = "pink";
+    document.getElementById('buildButton').style.background = "rgba(145,207,186,255";
     /*handles the card transformation*/
     document.getElementById("cardCircle").style.backgroundColor = "blue";
     document.getElementById("cardProductImage").style.marginLeft = "200px";
@@ -116,7 +116,7 @@ function show4() {
     document.getElementById("cardContent").style.opacity = "1";
     document.querySelector(".content .buildInfo").style.visibility = "visible";
     document.querySelector(".content .buildInfo").style.display = "inline-block";
-    document.getElementById("cardCircle").style.backgroundColor = "pink";
+    document.getElementById("cardCircle").style.backgroundColor = "rgba(145,207,186,255";
     document.getElementById("cardCircle").style.transition= "0.5s ease";
     document.getElementById("cardCircle").style.clipPath("circle(400px at center)")
 }
@@ -135,7 +135,7 @@ function hide4(){
 }
 
 function show5() {
-    document.getElementById('useButton').style.background = "pink";
+    document.getElementById('useButton').style.background = "rgba(145,207,186,255";
     /*handles the card transformation*/
     document.getElementById("cardCircle").style.backgroundColor = "blue";
     document.getElementById("cardProductImage").style.marginLeft = "200px";
@@ -144,7 +144,7 @@ function show5() {
     document.getElementById("cardContent").style.opacity = "1";
     document.querySelector(".content .useInfo").style.visibility = "visible";
     document.querySelector(".content .useInfo").style.display = "inline-block";
-    document.getElementById("cardCircle").style.backgroundColor = "pink";
+    document.getElementById("cardCircle").style.backgroundColor = "rgba(145,207,186,255";
     document.getElementById("cardCircle").style.transition= "0.5s ease";
     document.getElementById("cardCircle").style.clipPath("circle(400px at center)")
 }
@@ -163,7 +163,7 @@ function hide5(){
 }
 
 function show6() {
-    document.getElementById('alarmButton').style.background = "pink";
+    document.getElementById('alarmButton').style.background = "rgba(145,207,186,255";
     /*handles the card transformation*/
     document.getElementById("cardCircle").style.backgroundColor = "blue";
     document.getElementById("cardProductImage").style.marginLeft = "200px";
@@ -172,7 +172,7 @@ function show6() {
     document.getElementById("cardContent").style.opacity = "1";
     document.querySelector(".content .alarmInfo").style.visibility = "visible";
     document.querySelector(".content .alarmInfo").style.display = "inline-block";
-    document.getElementById("cardCircle").style.backgroundColor = "pink";
+    document.getElementById("cardCircle").style.backgroundColor = "rgba(145,207,186,255";
     document.getElementById("cardCircle").style.transition= "0.5s ease";
     document.getElementById("cardCircle").style.clipPath("circle(400px at center)")
 

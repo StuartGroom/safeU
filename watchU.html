@@ -18,19 +18,36 @@
                 <ul>
                     <li><a href="./index.html" id="navBtn">Home</a></li>
                     <li><a href="./about.html" id="navBtn">About Us</a></li>
+
+
                     <li>
                         <div class="dropdown" id="navBtn">
-                            <button onclick="myFunction()" class="dropbtn">Product</button>
+                            <button onclick="myFunction()" class="dropbtn">Products</button>
                             <div id="myDropdown" class="dropdown-content">
                                 <a href="./watchU.html">WatchU</a>
-                                <a href="./futureProducts.html">future products</a>
-                                
+                                <a href="./journey.html">Journey So Far</a>
+                                <a href="./futureProducts.html">Future Products</a>
                             </div>
                         </div>
                         <!-- <a href="./product.html">Product</a> -->
                     </li>
+
+
                     <li><a href="./socialmedia.html" id="navBtn">Social Media</a></li>
-                    <li><a href="./contact.html" id="navBtn">Contact</a></li>
+
+
+                    <li>
+                        <div class="dropdown" id="navBtn">
+                            <button onclick="myFunction2()" class="dropbtn2">Contact</button>
+                            <div id="myDropdown2" class="dropdown-content2">
+                                <a href="./contact.html">Contact Us!</a>
+                                <a href="./partners.html">Partners</a>
+                            </div>
+                        </div>
+                        <!-- <a href="./contact.html" id="navBtn">Contact</a> -->
+                    </li>
+
+
                     <li><a href="./FAQs.html" id="navBtn">FAQs</a></li>
                 </ul>
             </nav>
@@ -45,6 +62,63 @@
             </div> -->
 
             <!-- <h1 class="title">WatchU: Personal safety device</h1> -->
+
+            <div class = "productCustomiseContainer">
+
+                <!--left column/ image-->
+                <div class ="leftColumn">
+                    <img data-image="black" src="images/blackProduct1.png" alt="">
+                    <img data-image="white" src="images/whiteProduct2.png" alt="">
+                    <img data-image="green" class="active" src="images/greenProduct1.png" alt="">
+                    <img data-image="pink"  src="images/pinkProduct1.png" alt="">
+                </div>
+
+                <!--right column-->
+               <div class ="rightColumn">
+                    <div class= "productDescription">
+                        <span>Personal Safety Alarm</span>
+                        <h1>WatchU</h1>
+                        <p class = "hiddenText">WatchU is a personal safety alarm that omits 130 DB which can be
+                            heard half a mile away. The alarm is encased in a small silicone band which discretely slides
+                            onto your watch. The device is accessible to activate through an on/off switch in an
+                            emergency and acts as an instant deterrent.
+                        </p>
+                    </div>
+                    <!-- product configuartion-->
+                    <div class="productConfig">
+                        
+                        <!-- product colour-->
+                        <div class="productColour">
+                            <span>Select Colour</span>
+
+                            <div class="colourChoose">
+                                <div>
+                                    <input data-image="green" type="radio" id="green" name="color" value="green" checked>
+                                    <label for="green"><span></span></label>
+                                </div>
+                                <div>
+                                    <input data-image="pink" type="radio" id="pink" name="color" value="pink">
+                                    <label for="pink"><span></span></label>
+                                </div>
+                                <div>
+                                    <input data-image="white" type="radio" id="white" name="color" value="white">
+                                    <label for="white"><span></span></label>
+                                </div>
+                                <div>
+                                    <input data-image="black" type="radio" id="black" name="color" value="black">
+                                    <label for="black"><span></span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="productPrice">
+                        <span>£14.99</span>
+                    </div>  
+                </div>
+            </div>
+
+
 
             <div class ="productMain">
                 <div class = "productLeft">
@@ -175,60 +249,7 @@
        
 
             
-            <div class = "productCustomiseContainer">
-
-                <!--left column/ image-->
-                <div class ="leftColumn">
-                    <img data-image="black" src="images/blackProduct1.png" alt="">
-                    <img data-image="white" src="images/whiteProduct2.png" alt="">
-                    <img data-image="green" src="images/greenProduct1.png" alt="">
-                    <img data-image="pink" class="active" src="images/pinkProduct1.png" alt="">
-                </div>
-
-                <!--right column-->
-               <div class ="rightColumn">
-                    <div class= "productDescription">
-                        <span>Personal Safety Alarm</span>
-                        <h1>WatchU</h1>
-                        <p class = "hiddenText">WatchU is a personal safety alarm that omits 130 DB which can be
-                            heard half a mile away. The alarm is encased in a small silicone band which discretely slides
-                            onto your watch. The device is accessible to activate through an on/off switch in an
-                            emergency and acts as an instant deterrent.
-                        </p>
-                    </div>
-                    <!-- product configuartion-->
-                    <div class="productConfig">
-                        
-                        <!-- product colour-->
-                        <div class="productColour">
-                            <span>Select Colour</span>
-
-                            <div class="colourChoose">
-                                <div>
-                                    <input data-image="pink" type="radio" id="pink" name="color" value="pink" checked>
-                                    <label for="pink"><span></span></label>
-                                </div>
-                                <div>
-                                    <input data-image="green" type="radio" id="green" name="color" value="green">
-                                    <label for="green"><span></span></label>
-                                </div>
-                                <div>
-                                    <input data-image="white" type="radio" id="white" name="color" value="white">
-                                    <label for="white"><span></span></label>
-                                </div>
-                                <div>
-                                    <input data-image="black" type="radio" id="black" name="color" value="black">
-                                    <label for="black"><span></span></label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="productPrice">
-                        <span>£14.99</span>
-                    </div>  
-                </div>
-            </div>
+            
 
 
             <div class="release">

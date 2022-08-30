@@ -124,6 +124,7 @@ nav a{
 
 
 
+
 /* Dropdown Button */
 .dropbtn2 {
     background-color: rgba(224,255,251,255);
@@ -211,21 +212,6 @@ display: block;
 
 
 
-
-/*embedded feeds*/
-main .twitterFeed{
-    margin: auto;
-    align-content: center;
-    width: 100%;
-}
-main .instagramFeed{
-    height: 20% !important;
-    max-height: 20% !important;
-}
-
-
-
-
 /*social media nav bar*/
 .wrapper {
     display: flex;
@@ -283,4 +269,3 @@ main .instagramFeed{
       display: none;
     }
 }
-
