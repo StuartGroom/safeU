@@ -188,15 +188,57 @@ display: block;
 
 
 
+main{
+    width: 85vw;
+    background-color: greenyellow;
+    height: 90vh;
+    margin: auto;
+}
+
+main .banner{
+    width: 100vw;
+}
+
+.partnerContainer {
+    display: inline-block;
+}
+
+.item{
+    background-color: red;
+    width: 300px;
+    height: 150px;
+}
 
 
+.partnerCards{
+    display: flex;
+    justify-content: space-around;
+}
+.square {
+    margin: 10px;
+    padding:30px;
+    border: 1px solid #cecece;
+    align-items: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+    background-color:#f1f1f1;
+    min-height:200px;
+    height: 200px;
+    width: 200px;
+}
 
+.square img {
+    max-width:100%;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
 
-
-
-
-
-
+.square:hover img{
+    filter:none;
+}
 
 
 
