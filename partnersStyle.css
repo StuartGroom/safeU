@@ -203,7 +203,7 @@ main .banner{
 }
 
 main h2{
-    margin-left: 50px;
+    text-align: center;
     font-size: 32px;
 }
 
@@ -212,19 +212,15 @@ main h2{
     color: red;
 }
 
+
 .partnerContainer {
     display: inline-block;
 }
-
-.item{
-    width: 300px;
-    height: 150px;
-}
-
-
 .partnerCards{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    margin: auto;
+    width: calc(100vw - 150px);
 }
 .square {
     margin: 10px;

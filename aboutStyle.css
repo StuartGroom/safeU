@@ -208,7 +208,6 @@ display: block;
 
 /*about section*/
 .about-section {
-    
     padding: 50px;
     text-align: center;
     color: black;
@@ -240,25 +239,24 @@ display: block;
 
 /*team members section*/
 .teamContainer{
-    display: block;
-    width: 100vw;
+    display: inline-block;
     margin: auto;
     margin-top: 50px;
     text-decoration: underline;
     margin-bottom: 150px;
-    /* margin-left: 75px;
-    margin-right: 75px; */
 }
 .teamContainer h1{
     text-align: center;
     font-size: 42px;
-    
 }
+
+
+
+
 .teamCards{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    margin: auto;
+    width: calc(100vw);
 }
 .teamContainer::after, .row::after {
     content: "";
