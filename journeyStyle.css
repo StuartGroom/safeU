@@ -204,20 +204,14 @@ display: block;
 
 
 
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
-body{
-  padding:0;
-  margin:0;
-  font-family: 'Montserrat', sans-serif;
-}
 h1{
-  font-size:60px;
+  font-size:38px;
   text-align:center;
+  margin-top: 50px;
 }
 .timeline{
   position:relative;
-  margin:50px auto;
+  margin:25px auto;
   padding:40px 0;
   width:1000px;
   box-sizing:border-box;
