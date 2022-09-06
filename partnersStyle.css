@@ -252,8 +252,23 @@ main h2{
 
 
 
-
-
+.sideBySide{
+    display: flex;
+    text-align: center;
+}
+.partners{
+    margin-right: 20px;
+    width: 40vw;
+    background-color: rgba(224,255,251,255);
+    padding: 10px;
+    border-radius: 25px;
+}
+.rewards{
+    width: 40vw;
+    background-color: rgba(224,255,251,255);
+    padding: 10px;
+    border-radius: 25px;
+}
 
 
 
