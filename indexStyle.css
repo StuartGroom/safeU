@@ -479,8 +479,19 @@ main .one {
 
 .solution{
     margin-bottom: 50px;
+    height: 80vw;
 }
 
+.solution img{
+    width: 50vw;
+    margin-left: 100px;
+    margin-top: 10vw;
+}
+.solution p{
+    width: 30vw;
+    margin-left: 50px;
+    font-size: 1.5vw;
+}
 
 
 /*social media*/
