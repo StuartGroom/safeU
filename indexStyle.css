@@ -9,6 +9,7 @@ body{
     background: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+    width: 100vw;
 }
 
 /*nav bar*/
@@ -16,7 +17,6 @@ body{
     width:80%;
     margin: 0 auto;
     background-color: #f5f5f7;
-   
 }
 header{
     background: rgba(224,255,251,255);
@@ -78,9 +78,9 @@ nav a{
     font-size: 14px;
     border: none;
     cursor: pointer;
-  }
+}
   
-  /* Dropdown button on hover & focus */
+/* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
     color: black;
 }
@@ -97,37 +97,6 @@ nav a{
     width: 68%;
     transition: all ease-in-out 250ms;
 }
-
-/* nav li{
-    display: inline-block;
-    margin-left: 50px;
-    padding-top: 25px;
-    position: relative;
-}
-nav a{
-    color: rgb(100,116,116);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-nav a:hover{
-    color: black;
-}
-nav a:before{
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    width: 0%;
-}
-nav a:hover::before{
-    width: 100%;
-    transition: all ease-in-out 250ms;
-} */
-
-
 
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -232,28 +201,12 @@ display: block;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*main*/
 /*top banner*/
-main .one {
+
+
+/* main .one {
+    
     height: 20vh;
     display: absolute;
     align-items: center;
@@ -273,6 +226,7 @@ main .one {
     width: 20vw;
     margin-left: -17vw;
     max-width: 90vw;
+    
 }
 .one .image img{
     float: left;
@@ -281,8 +235,8 @@ main .one {
     max-height: 300px;
     max-width: 300px;
     margin-top: -75px;
-}
-.one .content{
+} */
+/* .one .content{
     padding-left: 10vw;
     margin-top: -100px;
     align-content: left;
@@ -298,13 +252,13 @@ main .one {
 .one .content p{
     font-size: 1.8rem;
     color:black;
-}
+} */
 
 
 /*main*/
 .about{
     position: relative;
-    width: 100vw;
+    width: 90vw;
 }
 .about span{
     font-size: 24px;
@@ -315,7 +269,7 @@ main .one {
     height: 22vw;
     display: flex;
     align-items: center;
-    width: 100vw; 
+    width: 90vw; 
 }
 
 .mission{
@@ -385,7 +339,6 @@ main .one {
     .carouselContainer{
         top: 300px;
         margin-bottom: 50px;
-        background-color: red;
     }
 }
    
@@ -395,8 +348,9 @@ main .one {
     box-sizing:border-box;
     position: relative;
     margin: auto;
-    width: 100vw;
-    max-width: 1500px;
+    width: 90vw;
+    max-width: 1400px;
+    
 }
 
 /* Make the images invisible by default */
@@ -406,6 +360,7 @@ main .one {
 
 /* forward & Back buttons */
 .Back, .forward {
+    
   cursor: pointer;
   position: absolute;
   top: 48%;
@@ -423,6 +378,7 @@ main .one {
 .forward {
   right: 0;
   border-radius: 4px 0 0 4px;
+  
 }
 
 /*when the user hovers,add a black background with some little opacity */
@@ -437,6 +393,7 @@ main .one {
   padding: 10px 14px;
   position: absolute;
   top: 0;
+  
 }
 
 /* The circles or bullets and indicators */
@@ -450,6 +407,7 @@ main .one {
   display: inline-block;
   transition: background-color 0.5s ease;
   margin-bottom: 50px;
+  
 }
 
 .enable, .dots:hover {
@@ -479,9 +437,9 @@ main .one {
 
 .solution{
     margin-bottom: 50px;
-    height: 80vw;
+    height: 35vw;
+    width: 100vw;
 }
-
 .solution img{
     width: 50vw;
     margin-left: 100px;
@@ -492,6 +450,60 @@ main .one {
     margin-left: 50px;
     font-size: 1.5vw;
 }
+
+
+
+
+
+
+
+/* Style the form element with a border around it */
+form {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+/* Add some padding and a grey background color to containers */
+.container {
+    padding: 20px;
+    background-color: rgba(224,255,251,255);;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*social media*/
