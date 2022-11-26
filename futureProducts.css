@@ -8,112 +8,82 @@ body{
 }
 
 
-main{
-    
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-.card{
-    position: relative;
-    width: 600px;
-    height: 350px;
-    display: flex;
-    align-content: center;
-    border-radius: 20px;
-    transition: 0.5s;
-    /* overflow: hidden; */
-}
-.card .circle{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    overflow: hidden;
-}
-.card .circle:before{
-    content:'';
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    clip-path: circle(120px at center);
-    transition: 0.5s;
-}
-.card:hover .circle:before{
-    background-color: blue;
-    clip-path: circle(400px at center);
-}
-.card img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    pointer-events: none;
-    transition: 0.5s;
-}
-.card:hover img{
-    left: 100%;
-    height: 500px;
-}
-.card .content{
-    position: relative;
-    width: 50%;
-    left: 20%;
-    padding: 20px 20px 20px 40px;
-    transition: 0.5s;
-    opacity: 0;
-    visibility: hidden;
-}
-.card:hover .content{
-    left: 0;
-    opacity: 1;
-    visibility: visible;
-}
-.card .content h2{
-    color: white;
-    text-transform: uppercase;
-    font-size: 2em;
-    line-height: 1em;
-    margin-bottom: 5px;
-}
-.card .content p{
-    color: white;
+
+
+/* main */
+
+.BannerContainer{
+    background-color: #f5f5f7;
+    padding: 100px;
 }
 
-@media (max-width: 991px){
-    .card{
-        width: auto;
-        max-width: 350px;
-        align-items: flex-start;
-        margin: 10px;
-    }
-    .card:hover{
-        height: 600px;
-    }
-    .card .content{
-        width:100%;
-        left: 0;
-        padding: 30px;
-    }
-    .card:hover img{
-        top: 70%;
-        left: 50%;
-        height: 300px;
+.column {
+    float: left;
+    width: 50%;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
     }
 }
-@media (max-width: 420px){
-    .card .content{
-        padding: 20px;
-    }
+
+.ProductContainer{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: pink;
+    margin-bottom: 50px;
+}
+.ProductImage {
+    float: left;
+    width: 50%;
+    background-color: blue;
+}
+.ProductImage img {
+    float: right;
+}
+
+.ProductTitle {
+    float: left;
+    width: 50%;
+    background-color: red;
+}
+
+
+.InfoCardContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 15px;
+    background-color: green;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-self: center;
+    height: 400px;
+    width: 300px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 10px;
+}
+
+.card img{
+    margin-top: 15px;
+    height: 60%;
+    width: 100%;
+}
+.cardText {
+    padding: 0 16px;
+    text-align: center;
+    height: 250px;
 }
 
 
@@ -297,16 +267,6 @@ display: block;
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
-
-
-
-
-
-
-
-
-
-
 
 
 
