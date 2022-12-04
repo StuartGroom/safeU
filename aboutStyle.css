@@ -242,17 +242,13 @@ display: block;
     display: inline-block;
     margin: auto;
     margin-top: 50px;
-    text-decoration: underline;
     margin-bottom: 150px;
 }
 .teamContainer h1{
     text-align: center;
     font-size: 42px;
+    text-decoration: underline;
 }
-
-
-
-
 .teamCards{
     display: flex;
     flex-flow: row wrap;
@@ -260,20 +256,6 @@ display: block;
     margin: 15px;
     width: 100vw;
 }
-/* .teamContainer::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.column {
-    float: left;
-    width: 400px;
-    margin-bottom: 16px;
-    padding-right: 5px;
-    padding-left: 5px;
-} */
-
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     align-self: center;
@@ -283,8 +265,6 @@ display: block;
     padding-left: 5px;
     margin: 10px;
 }
-
-
 .card img{
     height: 60%;
     width: 100%;
