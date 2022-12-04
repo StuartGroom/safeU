@@ -408,18 +408,12 @@ main .productCustomise {
         padding-left: 0px;
         padding-right: 0px;
     }
-    .ProductContainer .row{
-        display: inline-block;
-    }
-    .ProductImage{
-        width: 80%;
-        margin-left: 10%;
-    }
     .InfoCardContainer .card{
         width: 75%;
+        height: 70vh;
     }
-    .extraInfo .row .column img{
-        width: 100%;
+    .InfoCardContainer .card h2{
+        font-size: 18px;
     }
 }
 
