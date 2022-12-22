@@ -92,11 +92,19 @@ body{
         margin-left: 10%;
     }
 
-
-
     .InfoCardContainer .card{
-        width: 75%;
+        height: 50vh;
     }
+    .InfoCardContainer .card img{
+        height: 25vh;
+    }
+    .cardText h2{
+        font-size: 20px;
+    }
+    .cardText p{
+        font-size: 16px;
+    }
+
     .extraInfo .row .column img{
         width: 100%;
     }
@@ -127,7 +135,7 @@ body{
     margin-right: auto;
     background-color: red;
 }
-.cardText {
+.cardText{
     padding: 0 16px;
     text-align: center;
     height: 250px;
