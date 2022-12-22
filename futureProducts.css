@@ -93,16 +93,22 @@ body{
     }
 
     .InfoCardContainer .card{
-        height: 50vh;
+        height: 30vh;
+        width: 30vw;
     }
     .InfoCardContainer .card img{
-        height: 25vh;
+        height: 10vh;
+        width: 10vh;
     }
     .cardText h2{
-        font-size: 20px;
+        margin-top: -2px;
+        font-size: 16px;
+        line-height: normal;
     }
     .cardText p{
-        font-size: 16px;
+        margin-top: -2px;
+        font-size: 12px;
+        line-height: 0.9;
     }
 
     .extraInfo .row .column img{
