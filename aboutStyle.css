@@ -212,6 +212,9 @@ display: block;
     text-align: center;
     color: black;
 }
+.about-section h1{
+    color:#91CFBA;
+}
 .about-section p{
     width: 80vw;
     margin: auto;
@@ -224,15 +227,14 @@ display: block;
     padding-top: 50px;
 }
 .otherInfo p{
-    width: 70vw;
+    width: 90%;
     margin: auto;
-
 }
 .otherInfo img{
-    width: 50vw;
+    width: 50%;
     margin: auto;
     margin-top: 50px;
-    max-width: 800px;
+    max-width: 500px;
 }
 
 
@@ -247,7 +249,7 @@ display: block;
 .teamContainer h1{
     text-align: center;
     font-size: 42px;
-    text-decoration: underline;
+    color:#91CFBA;
 }
 .teamCards{
     display: flex;
@@ -259,11 +261,14 @@ display: block;
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     align-self: center;
-    height: 750px;
-    width: 400px;
+    height: 40vh;
+    min-height: 450px;
+    min-width: 300px;
+    width:25vh;
     padding-right: 5px;
     padding-left: 5px;
     margin: 10px;
+    line-height: 0.9;
 }
 .card img{
     height: 60%;
@@ -274,13 +279,20 @@ display: block;
     text-align: center;
     height: 250px;
 }
-.title {
+.card h2 {
+    font-size: calc(12px + 0.1vh);
+}
+.card .title {
     color: grey;
+    font-size: calc(12px + 0.1vh);
+}
+.card p{
+    font-size: calc(12px + 0.1vh);
 }
 .button {
     border: none;
     outline: 0;
-    display: inline-block;
+    display: inline;
     padding: 8px;
     color: white;
     background-color: #000;
@@ -288,27 +300,12 @@ display: block;
     cursor: pointer;
     width: 100%; 
 }
-.button2 {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    margin-top: 20px; 
-}
-
-
 .button:hover {
     background-color: #555;
 }
 
 /*resizes team cards when screen size is small - add resize on article photo?*/
 @media (max-width: 768px) {
-   
     .column{
         max-width: 90vw;
         margin-bottom: 30px;
@@ -318,9 +315,25 @@ display: block;
         height: 400px;
         width: 300px;
     }
-
 }
 
+/*reformats information when on large screen*/
+@media (min-width: 1400px){
+    .otherInfo .left{
+        width: 40vw;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 1;
+    }    
+    .otherInfo .right{
+        width: 40vw;
+        display: inline-block;
+        height: 100%;
+    }  
+    .otherInfo img{
+        width: 60%;
+    }
+} 
 
 
 
