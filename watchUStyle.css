@@ -503,7 +503,11 @@ main .productCustomise {
 }
 .releaseInfo h1{
     font-size: 38px;
-    text-decoration: underline;
+    color:#91CFBA;
+}
+.releaseInfo h2{
+    color:#91CFBA;
+    font-size: 32px;
 }
 .releaseInfo p{
     font-size: 24px;
