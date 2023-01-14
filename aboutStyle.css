@@ -205,7 +205,6 @@ display: block;
 
 
 
-
 /*about section*/
 .about-section {
     padding: 50px;
@@ -218,6 +217,7 @@ display: block;
 .about-section p{
     width: 80vw;
     margin: auto;
+    font-size: 18px;
 }
 .otherInfo{
     background: #ECF7F8; /*place holder colour*/
@@ -229,6 +229,7 @@ display: block;
 .otherInfo p{
     width: 90%;
     margin: auto;
+    font-size: 18px;
 }
 .otherInfo img{
     width: 50%;
@@ -236,6 +237,10 @@ display: block;
     margin-top: 50px;
     max-width: 500px;
 }
+
+
+
+
 
 
 
@@ -315,6 +320,46 @@ display: block;
         height: 400px;
         width: 300px;
     }
+    .otherInfo p{
+        font-size: 16px;
+    }
+    .about-section p{
+        font-size: 16px;
+    }
+    .card{
+        text-align: center;
+        min-height: 0px;
+        min-width: 0px;
+        width: 45vw;
+        padding-right: 2px;
+        padding-left: 2px;
+        margin: 5px;
+        height: 55vh;
+    } 
+    .cardContainer {
+        margin: auto;
+        width: 80%;
+        height: 100%;
+        word-break: break-word;
+    }
+    .card img{
+        height: 35%;
+        width: 70%;
+    }
+    .card h2 {
+        font-size: calc(12px + 0.1vh);
+        word-break: normal;
+    }
+    .card .title {
+        color: grey;
+        font-size: calc(12px + 0.1vh);
+    }
+    .card p{
+        font-size: calc(12px + 0.1vh);
+    }
+    .button {
+        width: 50%;
+    }
 }
 
 /*reformats information when on large screen*/
@@ -334,6 +379,13 @@ display: block;
         width: 60%;
     }
 } 
+
+
+
+
+
+
+
 
 
 
